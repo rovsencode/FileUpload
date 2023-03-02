@@ -38,6 +38,13 @@ namespace FirelloProject.Areas.AdminArea.Controllers
         {
             if (!ModelState.IsValid) return View();
 
+            bool isExist=_appDbContext.Categories.Any(c=>c.Name.ToLower()==category.Name.ToLower());
+            if (isExist)
+            {
+                ModelState.AddModelError("Name", "Bu category  movcuddur");
+                return View();
+            }
+            
 
             Category newCategory = new() { 
             Name= category.Name,
