@@ -7,7 +7,7 @@ namespace FirelloProject.ViewModels
     public class SliderCreateVM
     {
 
-        [Required(ErrorMessage)]
-        public IFormFile Photo { get; set; }
+        [Required]
+        public IFormFile? Photo { get; set; }
     }
 }

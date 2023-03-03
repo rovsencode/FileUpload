@@ -10,9 +10,13 @@ namespace FirelloProject.Areas.AdminArea.Controllers
     {
         private readonly AppDbContext _appDbContext;
         private readonly IWebHostEnvironment _env;
-            public SliderController(AppDbContext appDbContext)
+
+
+
+        public SliderController(AppDbContext appDbContext, IWebHostEnvironment env)
         {
             _appDbContext = appDbContext;
+            _env = env;
         }
         public IActionResult Index()
         {

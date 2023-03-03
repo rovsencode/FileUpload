@@ -265,3 +265,5 @@ C:\Users\HP\Desktop\FirelloProject\FirelloProject\obj\Debug\net6.0\refint\Firell
 C:\Users\HP\Desktop\FirelloProject\FirelloProject\obj\Debug\net6.0\FirelloProject.pdb
 C:\Users\HP\Desktop\FirelloProject\FirelloProject\obj\Debug\net6.0\FirelloProject.genruntimeconfig.cache
 C:\Users\HP\Desktop\FirelloProject\FirelloProject\obj\Debug\net6.0\ref\FirelloProject.dll
+C:\Users\HP\Desktop\FirelloProject\FirelloProject\bin\Debug\net6.0\xunit.abstractions.dll
+C:\Users\HP\Desktop\FirelloProject\FirelloProject\bin\Debug\net6.0\xunit.core.dll
