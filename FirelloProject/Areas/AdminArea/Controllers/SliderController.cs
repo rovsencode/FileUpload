@@ -1,4 +1,5 @@
 ﻿using FirelloProject.DAL;
+using FirelloProject.Extentions;
 using FirelloProject.Models;
 using FirelloProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -37,27 +38,21 @@ namespace FirelloProject.Areas.AdminArea.Controllers
                 ModelState.AddModelError("Photo", "Bosh qoyma ");
                 return View();
             }
-            if (!sliderCreateVM.Photo.ContentType.Contains("image"))
+            if (!sliderCreateVM.Photo.IsImage())
             {
                 ModelState.AddModelError("Photo", "only image ");
                 return View();
             }
-            if (sliderCreateVM.Photo.Length / 1024 > 500)
+            if (sliderCreateVM.Photo.CheckImageSize(500))
             {
                 ModelState.AddModelError("Photo", "olcu boyukdur ");
                 return View();
 
             }
 
-            string fileName = Guid.NewGuid().ToString() + sliderCreateVM.Photo.FileName;
-            string fullPath = Path.Combine(_env.WebRootPath, "img",fileName);
-
-            using (FileStream stream = new FileStream(fullPath, FileMode.Create))
-            {
-                sliderCreateVM.Photo.CopyTo(stream);
-            }
+         
             Slider newSlider = new();
-            newSlider.ImageUrl = fileName;
+            newSlider.ImageUrl = sliderCreateVM.Photo.SaveImage(_env,"img",sliderCreateVM.Photo.FileName);
 
             _appDbContext.Slider.Add(newSlider);
             _appDbContext.SaveChanges();

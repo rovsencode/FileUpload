@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1kbXnhnALJXskx3I//zAxA8nAUGnGUuJG5NzjDAwOgE=",
+  "Hash": "PVL3yxeH7UWOfgWlgUe1piYKOtCODvh+bf9r29bmv+A=",
   "Source": "FirelloProject",
   "BasePath": "_content/FirelloProject",
   "Mode": "Default",
@@ -2191,6 +2191,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\9e80e581-1d42-4ab7-8741-de9b0864dcb7doc for ca_2.jpg",
+      "SourceId": "FirelloProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\",
+      "BasePath": "_content/FirelloProject",
+      "RelativePath": "img/9e80e581-1d42-4ab7-8741-de9b0864dcb7doc for ca_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\9e80e581-1d42-4ab7-8741-de9b0864dcb7doc for ca_2.jpg"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\wwwroot\\img\\blog-feature-img-1.jpg",
