@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BR8Qzo+VSd+xR439ODWzXBHU5WIewcUsDKgDkSdLS2B87T1owLa+wF3gzr1++ZpByxwfxq/NSR6SD0dOcx8iAg==",
+  "dgSpecHash": "AuTALNz8YRmoSg/jJ+LtUjCcOTafFlW/livY3qqYy7T+n8mipIa0yiOmz57prsD2zKpLAaX3toVmgpRpAuOmPw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\FirelloProject\\FirelloProject\\FirelloProject.csproj",
   "expectedPackageFiles": [
@@ -176,6 +176,8 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",

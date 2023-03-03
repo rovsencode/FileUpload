@@ -85,9 +85,18 @@ namespace FirelloProject.Areas.AdminArea.Controllers
             existCategory.Description = updateVM.Description;
             _appDbContext.SaveChanges();
 
-            return RedirectToAction("index");
+            return RedirectToAction("Index");
         }
-        
+        public IActionResult Delete(int id)
+        {
+            if (id == null) return NotFound();
+            Category category = _appDbContext.Categories.SingleOrDefault(c => c.ID == id);
+            if (category == null) return NotFound();
+            _appDbContext.Categories.Remove(category);
+            _appDbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
    
    
